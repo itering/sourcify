@@ -110,8 +110,13 @@ export default {
         "monitored": false,
     },
     "44": {
+        "fullnode": {
+            "dappnode": "https://crab-rpc.darwinia.network"
+        },
+        "rpc": ["https://crab-rpc.darwinia.network"],
         "supported": true,
         "monitored": false,
+        "archiveWeb3": new Web3("https://crab-rpc.darwinia.network")
     },
     "56": {
         "supported": true,
