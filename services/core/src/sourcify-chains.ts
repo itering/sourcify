@@ -77,7 +77,7 @@ export default {
         "monitored": false,
     },
     "81": {
-        "rpc": ["https://rpc.shibuya.astar.network:8545"],
+        "rpc": ["https://evm.shibuya.astar.network"],
         "contractFetchAddress": "https://shibuya.api.subscan.io/api/scan/evm/contract",
         "subscan":true,
         "supported": true,
