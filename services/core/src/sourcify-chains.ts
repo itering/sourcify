@@ -125,4 +125,18 @@ export default {
         "supported": true,
         "monitored": false,
     },
+    "2088": {
+        "rpc": ["https://altair.api.onfinality.io/public"],
+        "contractFetchAddress": "https://altair.api.subscan.io/api/scan/evm/contract",
+        "subscan":true,
+        "supported": true,
+        "monitored": false,
+    },
+    "2031": {
+        "rpc": ["https://centrifuge-parachain.api.onfinality.io/public"],
+        "contractFetchAddress": "https://centrifuge.api.subscan.io/api/scan/evm/contract",
+        "subscan":true,
+        "supported": true,
+        "monitored": false,
+    },
 }
