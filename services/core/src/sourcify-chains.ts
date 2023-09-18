@@ -139,4 +139,11 @@ export default {
         "supported": true,
         "monitored": false,
     },
+    "5234": {
+        "rpc": ["https://explorer-rpc-ws.mainnet.stages.humanode.io"],
+        "contractFetchAddress": "https://humanode.api.subscan.io/api/scan/evm/contract",
+        "subscan":true,
+        "supported": true,
+        "monitored": false,
+    },
 }
