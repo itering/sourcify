@@ -327,24 +327,6 @@
     ]
   },
   {
-    "name": "Moonrock",
-    "chain": "MOON",
-    "rpc": [
-      "https://rpc.api.moonrock.moonbeam.network",
-      "wss://wss.api.moonrock.moonbeam.network"
-    ],
-    "faucets": [],
-    "nativeCurrency": {
-      "name": "Rocs",
-      "symbol": "ROC",
-      "decimals": 18
-    },
-    "infoURL": "https://docs.moonbeam.network/learn/platform/networks/overview/",
-    "shortName": "mrock",
-    "chainId": 1288,
-    "networkId": 1288
-  },
-  {
     "name": "originTrail Network",
     "chain": "originTrail",
     "rpc": [
@@ -388,6 +370,74 @@
       {
         "name": "subscan",
         "url": "https://origintrail-testnet.subscan.io",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "humanode",
+    "chain": "humanode",
+    "rpc": [
+      "https://explorer-rpc-ws.mainnet.stages.humanode.io"
+    ],
+    "shortName": "humanode",
+    "chainId": 5234,
+    "networkId": 5234,
+    "explorers": [
+      {
+        "name": "subscan",
+        "url": "https://humanode.subscan.io",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "altair",
+    "chain": "altair",
+    "rpc": [
+      "https://altair.api.onfinality.io/public"
+    ],
+    "shortName": "altair",
+    "chainId": 2088,
+    "networkId": 2088,
+    "explorers": [
+      {
+        "name": "subscan",
+        "url": "https://altair.subscan.io",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "centrifuge",
+    "chain": "centrifuge",
+    "rpc": [
+      "https://centrifuge-parachain.api.onfinality.io/public"
+    ],
+    "shortName": "centrifuge",
+    "chainId": 2031,
+    "networkId": 2031,
+    "explorers": [
+      {
+        "name": "subscan",
+        "url": "https://centrifuge-parachain.subscan.io",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "krest",
+    "chain": "krest",
+    "rpc": [
+      "ttps://erpc-krest.peaq.network/"
+    ],
+    "shortName": "krest",
+    "chainId": 424242,
+    "networkId": 424242,
+    "explorers": [
+      {
+        "name": "subscan",
+        "url": "https://krest.subscan.io",
         "standard": "none"
       }
     ]
