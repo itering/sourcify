@@ -45,6 +45,16 @@ export default {
         ],
         "txRegex": ETHERSCAN_REGEX,
     },
+    "43": {
+        "fullnode": {
+            "dappnode": "pangolin-rpc.darwinia.network"
+        },
+        "contractFetchAddress": "https://pangolin.api.subscan.io/api/scan/evm/contract",
+        "subscan":true,
+        "rpc": ["https://pangolin-rpc.darwinia.network"],
+        "supported": true,
+        "monitored": false,
+    },
     "44": {
         "fullnode": {
             "dappnode": "https://crab-rpc.darwinia.network"
@@ -52,6 +62,16 @@ export default {
         "contractFetchAddress": "https://crab.api.subscan.io/api/scan/evm/contract",
         "subscan":true,
         "rpc": ["https://crab-rpc.darwinia.network"],
+        "supported": true,
+        "monitored": false,
+    },
+    "45": {
+        "fullnode": {
+            "dappnode": "https://pangoro-rpc.darwinia.network"
+        },
+            "contractFetchAddress": "https://pangoro.api.subscan.io/api/scan/evm/contract",
+        "subscan":true,
+        "rpc": ["https://pangoro-rpc.darwinia.network"],
         "supported": true,
         "monitored": false,
     },
