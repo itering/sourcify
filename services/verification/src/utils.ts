@@ -108,10 +108,13 @@ export async function recompile(
     }
 
     const contract: any = output.contracts[fileName][contractName];
+    let meta = JSON.parse(contract.metadata);
+    meta.output.creationBytecodeLength = getBytecodeWithoutMetadata(`0x${contract.evm.bytecode.object}`).length;
+
     return {
         creationBytecode: `0x${contract.evm.bytecode.object}`,
         deployedBytecode: `0x${contract.evm.deployedBytecode.object}`,
-        metadata: contract.metadata.trim()
+        metadata: JSON.stringify(meta),
     }
 }
 
