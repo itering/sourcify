@@ -429,7 +429,7 @@
     "name": "krest",
     "chain": "krest",
     "rpc": [
-      "ttps://erpc-krest.peaq.network/"
+      "https://erpc-krest.peaq.network/"
     ],
     "shortName": "krest",
     "chainId": 424242,
@@ -438,6 +438,23 @@
       {
         "name": "subscan",
         "url": "https://krest.subscan.io",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "agung-testnet",
+    "chain": "agung-testnet",
+    "rpc": [
+      "https://wsspc1-qa.agung.peaq.network/"
+    ],
+    "shortName": "agung-testnet",
+    "chainId": 9990,
+    "networkId": 9990,
+    "explorers": [
+      {
+        "name": "subscan",
+        "url": "https://agung-testnet.subscan.io/",
         "standard": "none"
       }
     ]
