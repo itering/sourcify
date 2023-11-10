@@ -109,7 +109,7 @@ export async function recompile(
 
     const contract: any = output.contracts[fileName][contractName];
     let meta = JSON.parse(contract.metadata);
-    meta.output.creationBytecodeLength = getBytecodeWithoutMetadata(`0x${contract.evm.bytecode.object}`).length;
+    meta.output.creationBytecodeLength = `0x${contract.evm.bytecode.object}`.length
 
     return {
         creationBytecode: `0x${contract.evm.bytecode.object}`,
