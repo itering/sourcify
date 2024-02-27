@@ -173,4 +173,18 @@ export default {
         "supported": true,
         "monitored": false,
     },
+    "8880": {
+        "rpc": ["https://unique-rpc.dwellir.com"],
+        "contractFetchAddress": "https://unique.api.subscan.io/api/scan/evm/contract",
+        "subscan":true,
+        "supported": true,
+        "monitored": false,
+    },
+    "8881": {
+        "rpc": ["https://quartz-rpc.dwellir.com/"],
+        "contractFetchAddress": "https://quartz.api.subscan.io/api/scan/evm/contract",
+        "subscan":true,
+        "supported": true,
+        "monitored": false,
+    },
 }

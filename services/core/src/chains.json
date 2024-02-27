@@ -458,5 +458,39 @@
         "standard": "none"
       }
     ]
+  },
+  {
+    "name": "unique",
+    "chain": "unique",
+    "rpc": [
+      "https://unique-rpc.dwellir.com/"
+    ],
+    "shortName": "unique",
+    "chainId": 8880,
+    "networkId": 8880,
+    "explorers": [
+      {
+        "name": "subscan",
+        "url": "https://unique.subscan.io/",
+        "standard": "none"
+      }
+    ]
+  },
+  {
+    "name": "quartz",
+    "chain": "quartz",
+    "rpc": [
+      "https://quartz-rpc.dwellir.com/"
+    ],
+    "shortName": "quartz",
+    "chainId": 8881,
+    "networkId": 8881,
+    "explorers": [
+      {
+        "name": "subscan",
+        "url": "https://quartz.subscan.io/",
+        "standard": "none"
+      }
+    ]
   }
 ]
