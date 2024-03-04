@@ -187,4 +187,11 @@ export default {
         "supported": true,
         "monitored": false,
     },
+    "8882": {
+        "rpc": ["https://ws-opal.unique.network/"],
+        "contractFetchAddress": "https://opal.api.subscan.io/api/scan/evm/contract",
+        "subscan":true,
+        "supported": true,
+        "monitored": false,
+    },
 }

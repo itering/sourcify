@@ -492,5 +492,22 @@
         "standard": "none"
       }
     ]
+  },
+  {
+    "name": "opal",
+    "chain": "opal",
+    "rpc": [
+      "https://ws-opal.unique.network/"
+    ],
+    "shortName": "opal",
+    "chainId": 8882,
+    "networkId": 8882,
+    "explorers": [
+      {
+        "name": "subscan",
+        "url": "https://opal.subscan.io/",
+        "standard": "none"
+      }
+    ]
   }
 ]
