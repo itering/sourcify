@@ -509,5 +509,22 @@
         "standard": "none"
       }
     ]
+  },
+  {
+    "name": "hydradx",
+    "chain": "hydradx",
+    "rpc": [
+      "https://rpc.hydradx.cloud/"
+    ],
+    "shortName": "hydradx",
+    "chainId": 222222,
+    "networkId": 222222,
+    "explorers": [
+      {
+        "name": "subscan",
+        "url": "https://hydradx.subscan.io/",
+        "standard": "none"
+      }
+    ]
   }
 ]

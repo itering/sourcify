@@ -194,4 +194,11 @@ export default {
         "supported": true,
         "monitored": false,
     },
+    "222222": {
+        "rpc": ["https://rpc.hydradx.cloud/"],
+        "contractFetchAddress": "https://hydradx.api.subscan.io/api/scan/evm/contract",
+        "subscan":true,
+        "supported": true,
+        "monitored": false,
+    },
 }
