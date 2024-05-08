@@ -173,6 +173,13 @@ export default {
         "supported": true,
         "monitored": false,
     },
+    "3338": {
+        "rpc": ["https://wss-arc.peaq.network"],
+        "contractFetchAddress": "https://peaq.api.subscan.io/api/scan/evm/contract",
+        "subscan":true,
+        "supported": true,
+        "monitored": false,
+    },
     "8880": {
         "rpc": ["https://unique-rpc.dwellir.com"],
         "contractFetchAddress": "https://unique.api.subscan.io/api/scan/evm/contract",

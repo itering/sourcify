@@ -460,6 +460,23 @@
     ]
   },
   {
+    "name": "peaq",
+    "chain": "peaq",
+    "rpc": [
+      "https://wss-arc.peaq.network/"
+    ],
+    "shortName": "peaq",
+    "chainId": 3338,
+    "networkId": 3338,
+    "explorers": [
+      {
+        "name": "subscan",
+        "url": "https://peaq.subscan.io/",
+        "standard": "none"
+      }
+    ]
+  },
+  {
     "name": "unique",
     "chain": "unique",
     "rpc": [
