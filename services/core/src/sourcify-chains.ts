@@ -167,7 +167,7 @@ export default {
         "monitored": false,
     },
     "9990": {
-        "rpc": ["https://wsspc1-qa.agung.peaq.network"],
+        "rpc": ["https://wss-async.agung.peaq.network"],
         "contractFetchAddress": "https://agung-testnet.api.subscan.io/api/scan/evm/contract",
         "subscan":true,
         "supported": true,

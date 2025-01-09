@@ -446,7 +446,7 @@
     "name": "agung-testnet",
     "chain": "agung-testnet",
     "rpc": [
-      "https://wsspc1-qa.agung.peaq.network/"
+      "https://wss-async.agung.peaq.network/"
     ],
     "shortName": "agung-testnet",
     "chainId": 9990,
