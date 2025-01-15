@@ -10,7 +10,7 @@ COPY *.json ./
 #
 RUN npm install
 RUN npx lerna bootstrap || true
-RUN cd /home/app/node_modules/@ethereum-sourcify/core && ls
+RUN cat /home/app/node_modules/@ethereum-sourcify/core/package.json
 RUN cd /home/app/node_modules/@ethereum-sourcify/core && npm run build
 RUN cd /home/app && npx lerna bootstrap || true
 RUN cd /home/app/node_modules/@ethereum-sourcify/verification && npm run build
