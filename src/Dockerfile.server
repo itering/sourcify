@@ -1,4 +1,4 @@
-FROM node:14.20.1
+FROM quay.io/subscan-explorer/sourcify:sha-6f84145-22
 WORKDIR /home/app
 
 COPY services/core ./services/core
@@ -6,16 +6,15 @@ COPY services/validation ./services/validation
 COPY services/verification ./services/verification
 COPY src ./src
 COPY *.json ./
-
-#
-RUN npm install
-RUN npx lerna bootstrap || true
-# RUN cd /home/app/node_modules/@ethereum-sourcify/core && npm run build
-RUN cd /home/app && npx lerna bootstrap || true
-RUN cd /home/app/node_modules/@ethereum-sourcify/verification && npm run build
-RUN cd /home/app && npx lerna bootstrap || true
-RUN cd /home/app/node_modules/@ethereum-sourcify/validation && npm run build
-RUN cd /home/app && npx lerna bootstrap
+RUN rm -rf ./dist
+# RUN npm install
+# RUN npx lerna bootstrap || true
+# # RUN cd /home/app/node_modules/@ethereum-sourcify/core && npm run build
+# RUN cd /home/app && npx lerna bootstrap || true
+# RUN cd /home/app/node_modules/@ethereum-sourcify/verification && npm run build
+# RUN cd /home/app && npx lerna bootstrap || true
+# RUN cd /home/app/node_modules/@ethereum-sourcify/validation && npm run build
+# RUN cd /home/app && npx lerna bootstrap
 RUN npx lerna run build
 
 CMD ["npm", "run", "server:start"]
