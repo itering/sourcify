@@ -28,5 +28,5 @@ jobs:
           context: .
           file: ./src/Dockerfile.server
           push: true
-          tags: debug-${{ steps.meta.outputs.tags }}-${{ github.run_number }}
+          tags: ${{ steps.meta.outputs.tags }}-${{ github.run_number }}-debug
           labels: ${{ steps.meta.outputs.labels }}
