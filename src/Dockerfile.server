@@ -10,7 +10,7 @@ COPY *.json ./
 #
 RUN npm install
 RUN npx lerna bootstrap || true
-# 将 /home/app/node_modules/@ethereum-sourcify/core/package.json 中的 '"^' 替换为 '"', 并保存
+# 将 /home/app/node_modules/@ethereum-sourcify/core/package.json 中的 '^' 替换为 '', 并保存
 RUN sed -i 's/"^/""/g' /home/app/node_modules/@ethereum-sourcify/core/package.json && cat /home/app/node_modules/@ethereum-sourcify/core/package.json
 RUN cd /home/app/node_modules/@ethereum-sourcify/core && npm run build
 RUN cd /home/app && npx lerna bootstrap || true
