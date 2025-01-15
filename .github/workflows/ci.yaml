@@ -1,8 +1,7 @@
 name: CI
 on:
   push:
-    tags: ["*"]
-    branches: ["master"]
+    branches: ["fix-ci"]
 
 jobs:
   build-and-deploy:
@@ -25,10 +24,9 @@ jobs:
 
       - name: Build and publish
         uses: docker/build-push-action@v3
-        if: github.ref == 'refs/heads/master'
         with:
           context: .
           file: ./src/Dockerfile.server
           push: true
-          tags: ${{ steps.meta.outputs.tags }}-${{ github.run_number }}
+          tags: debug-${{ steps.meta.outputs.tags }}-${{ github.run_number }}
           labels: ${{ steps.meta.outputs.labels }}
