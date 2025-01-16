@@ -208,4 +208,11 @@ export default {
         "supported": true,
         "monitored": false,
     },
+    "996": {
+        "rpc": ["https://hk.p.bifrost-rpc.liebi.com/"],
+        "contractFetchAddress": "https://bifrost.api.subscan.io/api/scan/evm/contract",
+        "subscan":true,
+        "supported": true,
+        "monitored": false,
+    },
 }

@@ -543,5 +543,22 @@
         "standard": "none"
       }
     ]
+  },
+  {
+    "name": "bifrost",
+    "chain": "bifrost",
+    "rpc": [
+      "https://hk.p.bifrost-rpc.liebi.com/"
+    ],
+    "shortName": "bifrost",
+    "chainId": 996,
+    "networkId": 996,
+    "explorers": [
+      {
+        "name": "subscan",
+        "url": "https://bifrost.subscan.io/",
+        "standard": "none"
+      }
+    ]
   }
 ]
